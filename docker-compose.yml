@@ -1,0 +1,17 @@
+version: '3'
+services: 
+  xrayr: 
+    image: ghcr.io/xrayr-project/xrayr:latest
+    volumes:
+      - ./config:/etc/XrayR/ 
+    restart: always
+    ports:
+      - 18888:18888
+
+  zju-connect:
+    image: mythologyli/zju-connect
+    container_name: zju-connect
+    restart: unless-stopped
+    volumes:
+      - ./config.toml:/home/nonroot/config.toml
+

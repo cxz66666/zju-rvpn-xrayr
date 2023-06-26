@@ -1,0 +1,27 @@
+[
+  { "protocol": "freedom", "settings": {}, "tag": "direct" },
+  {
+    "protocol": "freedom",
+    "settings": { "domainStrategy": "UseIPv4" },
+    "tag": "ipv4-out"
+  },
+  {
+    "protocol": "freedom",
+    "settings": { "domainStrategy": "UseIPv6" },
+    "tag": "ipv6-out"
+  },
+  {
+    "protocol": "socks",
+    "settings": {
+      "servers": [
+        {
+          "address": "zju-connect",
+          "port": 1080
+        }
+      ]
+    },
+    "tag": "zju-connect"
+  },
+  { "protocol": "blackhole", "settings": {}, "tag": "blocked" }
+]
+

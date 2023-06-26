@@ -1,0 +1,22 @@
+username = "******"
+password = "********"
+
+# Advanced settings
+server_address = "rvpn.zju.edu.cn"
+server_port = 443
+disable_server_config = false
+disable_zju_config = false
+disable_zju_dns = false
+disable_multi_line = false
+proxy_all = false
+socks_bind = ":1080"
+socks_user = ""
+socks_passwd = ""
+http_bind = ":1081"
+dns_ttl = 3600
+disable_keep_alive = false
+zju_dns_server = "10.10.0.21"
+debug_dump = false
+
+# Port forwarding
+port_forwarding = []
