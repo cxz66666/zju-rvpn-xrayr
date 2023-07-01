@@ -9,3 +9,4 @@
 3. 安装docker和docker compose
 4. 执行`docker compose up -d`即可
 
+联系机场住获取需要开放的tcp端口号！
